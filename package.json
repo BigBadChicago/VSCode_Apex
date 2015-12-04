@@ -1,0 +1,26 @@
+{
+	"name": "apex",
+	"displayName": "Salesforce Apex",
+	"description": "This extension provides language support for the Salesforce Apex language. Apex is a strongly typed, object-oriented programming language that allows developers to execute flow and transaction control statements on the Force.com platform server in conjunction with calls to the Force.com API.",
+	"version": "0.0.1",
+	"publisher": "BigBadChicago",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "apex",
+			"aliases": ["Apex", "apex"],
+			"extensions": [".cls",".trigger"],
+			"configuration": "./apex.configuration.json"
+		}],
+		"grammars": [{
+			"language": "apex",
+			"scopeName": "source.apex",
+			"path": "./syntaxes/apex.tmLanguage"
+		}]
+	}
+}
