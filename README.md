@@ -1,6 +1,7 @@
-# README
-## This is the README for your extension "apex" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# VSCode_Apex
+This is a Visual Studio Code extension which provides language support for the Salesforce Apex language. Apex is a strongly typed, object-oriented programming language that allows developers to execute flow and transaction control statements on the Force.com platform server in conjunction with calls to the Force.com API.
+
+Here are some useful VS Code editor keyboard shortcuts:
 
 * Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
 * Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
